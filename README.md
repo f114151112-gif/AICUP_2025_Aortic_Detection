@@ -2,7 +2,6 @@
 # 日期: 2025/12/03
 
 ## 1. 核心結論
-經過詳細的時間戳記比對與參數驗證，確認當時獲獎的設定如下：
 
 - **模型檔案**: `c:\ai_cup_dataset\runs_aicup\yolov12n_laplacian\weights\best.pt`
 - **建立時間**: 2025/11/24 04:32:28 AM 
@@ -19,7 +18,7 @@
 | **行數** | **4037 行** | **4033 行** (僅差 4 行，吻合度 99.9%) | 
 | **內容** | patient0051... 0.03621 | patient0051... 0.03621 | (數值一致) |
 
-## 3. 檔案說明 (已還原原始檔名)
+## 3. 檔案說明 
 在此資料夾中備份了以下檔案：
 1. **`predict_aortic_yolov12.py`**: 預測腳本 (已設定正確參數)。
 2. **`train_aortic_yolov12.py`**: 訓練腳本 ( Epochs=200, Patience=50)。
@@ -68,6 +67,7 @@ python predict_aortic_yolov12.py
 - **Beta (邊緣權重)**: `0.5`
 - **Kernel Size**: `3`
 - **Gaussian Blur**: `(3, 3)`
+
 
 
 
