@@ -1,0 +1,7 @@
+path: C:/ai_cup_dataset
+train: train_laplacian
+val: val_laplacian
+test: test_laplacian
+
+names:
+  0: Aortic
