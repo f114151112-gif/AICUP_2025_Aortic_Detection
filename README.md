@@ -12,7 +12,7 @@
   - `max_det`: 3
 
 ## 2. 驗證證據
-我們比對了重新執行的結果與原始繳交檔 (`merged_laplacian_conf001_iou05繳ㄌ.txt`)：
+我們比對了重新執行的結果與原始繳交檔 (`merged_laplacian.txt`)：
 
 | 項目 | 原始繳交檔 | 重現檔 (Conf=0.01)  |
 | :--- | :--- | :--- | :--- |
@@ -68,5 +68,6 @@ python predict_aortic_yolov12.py
 - **Beta (邊緣權重)**: `0.5`
 - **Kernel Size**: `3`
 - **Gaussian Blur**: `(3, 3)`
+
 
 
